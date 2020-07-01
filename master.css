@@ -1,0 +1,81 @@
+* {
+  font-family:  Helvetica, sans-serif;
+}
+
+div.header {
+  text-align: center;  
+}
+
+div h2 {
+  text-align: right;
+  margin-top: 3px;
+  margin-right: 0px;
+
+}
+
+span {
+  border-radius: 1px;
+
+}
+
+div.section_1 span {
+  background-color: #8F95BF;
+  padding: 3px;
+  border-style: solid;
+}
+
+div.section_2 span {
+  background-color: #BF8FB6;
+  padding: 3px;
+  border-style: solid;
+}
+
+div.section_3 span {
+  background-color: #8FBF9E;
+  padding: 3px;
+  border-style: solid
+}
+
+.section_1 p,.section_2 p, .section_3 p {
+  padding: 10px;
+}
+
+@media (min-width:992px) {
+  div.section_1, div.section_2, div.section_3 {
+    width: 33%;
+    float: left;
+  }
+  .section_1_part, .section_2_part, .section_3_part {
+    background-color: #e5e5e5;
+    border-radius: 1px;
+    margin: 10px;
+    border-style:solid;
+}
+}
+@media (max-width:991px) and (min-width:768px) {
+  /* For tablets: */
+  .section_3, .section_1, .section_2 {
+    width: 50%;
+    float: left;
+  }
+   .section_3 {
+    width: 100%;
+  }
+  .section_1_part, .section_2_part, .section_3_part {
+    background-color: #e5e5e5;
+    border-radius: 1px;
+    margin: 10px;
+    border-style:solid;
+  }
+}
+
+@media (max-width:767px) and (min-width:100px) {
+  /* For mobile phones: */
+  div.section_1, div.section_2, div.section_3 {
+    width: 100%;
+    border-radius: 1px;
+    background-color: #e5e5e5;
+    margin: 10px;
+    border-style:solid;
+  }
+}
