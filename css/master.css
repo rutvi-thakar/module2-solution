@@ -48,7 +48,6 @@ div.section_3 span {
 @media (min-width:992px) {
   div.section_1, div.section_2, div.section_3 {
     
-  height: 100px;
     width: 33%;
     float: left;
   }
@@ -62,13 +61,11 @@ div.section_3 span {
 @media (max-width:991px) and (min-width:768px) {
   /* For tablets: */
   .section_3, .section_1, .section_2 {
-    
-  height: 100px;
+   
     width: 50%;
     float: left;
   }
    .section_3 {
-    height: 100px;
     width: 100%;
   }
   .section_1_part, .section_2_part, .section_3_part {
